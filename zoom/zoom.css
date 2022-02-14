@@ -1,0 +1,82 @@
+#picture{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #000000;
+  }
+  #bagImage {
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    align-items: center;  
+  }
+  
+  .zoomIn{
+    color:black;
+    /* display: block; */
+  }
+  .zoomOut{
+    color:black;
+    
+  }
+   .zoomOut:hover{
+    color: grey;
+  }
+  .zoomIn:hover{
+    color: grey;
+  } 
+  .close{
+    color: black;
+    opacity: 1 !important;
+    /* margin-right: 10px; */
+    float: right;
+
+  }
+  /* .close:hover{
+    color: white;
+    opacity: 1;
+  } */
+  a{
+    color: none;
+  }
+  #bagImageZoom{
+    height: 400px;
+    width: 400px;
+    align-items: center !important;
+    padding: 150px 0 0 130px;
+    overflow: visible;
+    overflow: hidden;
+    /* margin-top: 21px;
+    margin-left: 212px; */
+  }
+  button{
+    position: relative;
+  }
+  .image{
+    position: relative;
+    min-height: 430px;
+  }
+  .modal-body{
+    overflow-x: auto;
+    overflow-y: auto;
+  }
+  .center {
+    /* display: block; */
+    margin-left: 150px;
+    margin-bottom: 105px;
+    margin-top: 20px;
+    /* width: 50%; */
+  } 
+  .fa , .fas{
+color: black;
+font-weight: 100;
+padding: 10px;
+
+  }
+  .abc{
+    color:grey!important;
+  }
+
+  
